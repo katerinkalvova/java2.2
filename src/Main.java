@@ -7,7 +7,8 @@ public class Main {
         int bonus;
         if (money >= 1000) {
             bonus = money / amount;
-        }else{ bonus = 0;
+        } else {
+            bonus = 0;
 
         }
 
@@ -15,7 +16,7 @@ public class Main {
         int totalMoney = initialMoney + money + bonus;
 
 
-        System.out.println ("сумма на счету "+ totalMoney );
+        System.out.println("сумма на счету " + totalMoney);
         System.out.println("Бонус " + bonus);
 
     }
